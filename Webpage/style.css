@@ -1,0 +1,41 @@
+h1{
+color: #ffffff ;
+
+}
+
+.Personal-Details{
+    color: #ffffff;
+    background-color: #000000 ;
+    font: 100;
+    font-style: normal ;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    text-align: center
+}
+
+.body{
+    color:green;
+    background-color: #000000 ;
+    font-style: normal ;
+    font-family: 'Courier New', Courier, monospace ;
+    outline-color: #000000 ;
+    outline-width: 50px;
+    outline-style: solid
+}
+
+header{
+    background-color: #000000
+}
+
+.Segments{
+    border-color: greenyellow;
+    border-style: solid;
+    border-width: 2px;
+    padding: 15px;
+    font-size: 18px;
+
+}
+
+.headings{
+    text-align: center
+}
