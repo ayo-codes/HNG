@@ -3,6 +3,13 @@ color: #ffffff ;
 
 }
 
+.profile-photo{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
 .Personal-Details{
     color: #ffffff;
     background-color: #000000 ;
@@ -20,8 +27,9 @@ color: #ffffff ;
     font-family: 'Courier New', Courier, monospace ;
     outline-color: #000000 ;
     outline-width: 50px;
-    outline-style: solid
-}
+    outline-style: solid;
+}    
+   
 
 header{
     background-color: #000000
@@ -38,4 +46,13 @@ header{
 
 .headings{
     text-align: center
+}
+
+.Contact-Form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 24px;
+
 }
