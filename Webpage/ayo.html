@@ -7,6 +7,7 @@
     <title>CV of Ayo - shn01490</title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
+
   </head>
     <body>
     <div class="body">
@@ -130,21 +131,31 @@
         <div class="headings"><h1><u><strong>CONTACT ME</u></strong></h1></div>
 
         <div class="Contact-Form">
-            <form method="POST">
-               <label> Full Name: <br></label>
-                <input type="text" name="fullname" class="fullname"><br>
+            <form id="form"   method="GET" >
+               <label> Full Name:(Required - Min Length 4 characters) <br></label>
+                <input type="text" name="fullname" class="fullname" minlength="4" required ><br>
 
-                <label> Email: <br></label> 
-                <input type="email" name="Email" class="email"><br>
+                <label> Email (Required): <br></label> 
+                <input type="email" name="Email" class="email" required ><br>
 
-                <label> Subject: <br></label>
-                <input type="text" name="Subject" class="subject"><br>
+                <label> Subject (Required): <br></label>
+                <input type="text" name="Subject" class="subject" required ><br>
 
-                <label> Message: <br> </label> 
-                <input type="text" name="message" class="message"><br>
+                <label> Message (Required - Min Length 20 characters): <br> </label> 
+                <textarea name="msg" class="msg" minlength="20" required > </textarea><br>
 
                 <label>Submit: <br></label>
-                <input type="submit" name="submit" class="submit"><br>
+               
+                <!--to show error messages-->
+                <div id="error">
+
+                </div>
+
+
+                <button type="submit" class="submit">
+                    SEND 
+                </button> 
+                
 
             </form> 
         </div>      
